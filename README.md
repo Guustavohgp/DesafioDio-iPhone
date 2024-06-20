@@ -35,6 +35,13 @@ O projeto está organizado da seguinte maneira:
 - `adicionarNovaAba():` Exibe "Abrindo nova aba..."
 - `atualizarPagina():` Exibe "Atualizando página..."
 
+## Diagrama UML
+
+![alt text](image-1.png)
+ As interfaces definem apenas métodos abstratos, ou seja, sem implementação. Esses métodos serão implementados pela classe que implementar essas interfaces.
+
+ A classe Iphone implementa todas as interfaces definidas (Reprodutor, Phone e Navegador). Isso significa que a Iphone deve fornecer a implementação de todos os métodos das interfaces.
+
 ## Como executar
 
 Para executar a aplicação, siga estas etapas:
@@ -44,6 +51,7 @@ Para executar a aplicação, siga estas etapas:
 3. Navegue até o diretório raiz do projeto no terminal.
 4. Compile os arquivos Java executando o comando `javac application/*.java entities/*.java`.
 5. Execute a aplicação com o comando `java application.Program`.
+
 
 ## Autor
 Guustavoghp
