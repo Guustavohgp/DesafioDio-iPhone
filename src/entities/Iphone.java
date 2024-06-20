@@ -1,3 +1,5 @@
+package entities;
+
 public class Iphone implements Reprodutor, Phone, Navegador {
 
         // Metodos do Reprodutor

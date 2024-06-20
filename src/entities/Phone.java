@@ -1,3 +1,4 @@
+package entities;
 public interface Phone {
     void ligar();
     void atender();

@@ -1,4 +1,7 @@
+package application;
 import java.util.Scanner;
+
+import entities.Iphone;
 
 public class App {
     public static void main(String[] args) {
